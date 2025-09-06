@@ -17,7 +17,6 @@ Click to switch to the English version ☞ **[English](./README.md)**
 > -  本仓库包含了我们为 **[2025年MCM/ICM竞赛E题](https://www.contest.comap.com/undergraduate/contests/mcm/contests/2025/problems/2025_ICM_Problem_E.pdf)** 提交的完整解决方案。
 > -  我们采用基于改进Lotka-Volterra方程的动态建模方法，模拟了森林与农业生态系统中的氮循环过程，并深入分析了从森林到可持续性农田的生态系统转变。
 > -  本项目中包含了论文的**tex源文档**以及**所有代码**。
-> - 此外，关于论文中文版和心路历程可见博客 **[2025美赛E题F奖论文分享](https://www.cnblogs.com/JQ-Luke/p/18858431)**。
 
 ---
 
