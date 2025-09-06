@@ -84,20 +84,6 @@ jupyter lab
 ```
 Once JupyterLab opens, navigate to the `notebooks/` directory and run the files starting with `1_model_1.ipynb`.
 
-## 📄 Paper & Citation
-Our complete methodology, analysis, and findings are detailed in the academic paper located in the `paper/` directory. If you find our work useful in your research, we would appreciate a citation.
-
-```Code snippet
-@inproceedings{Lu2025,
-  title     = {From Forest to Farm: Modeling Nitrogen Dynamics for Sustainable Agriculture},
-  author    = {Lu, Junqi and Wu, Yuejiao and Peng, Linjing},
-  booktitle = {The Mathematical Contest in Modeling (MCM/ICM)},
-  year      = {2025},
-  publisher = {COMAP, Inc.},
-  note      = {Team 2515324, Finalist Award}
-}
-```
-
 ## ⚖️ License
 This project is distributed under the MIT License. See the `LICENSE` file for more information.
 
