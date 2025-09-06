@@ -84,18 +84,5 @@ jupyter lab
 ```
 启动JupyterLab后，请进入 `notebooks/` 目录，并从 `1_model_1.ipynb` 开始运行。
 
-## 📄 论文与引用
-我们完整的研究方法、分析和结论都详细记录在 `paper/` 目录下的学术论文中。如果您在您的研究中发现我们的工作有用，请考虑引用它。
-
-```Code snippet
-@inproceedings{Lu2025,
-  title     = {From Forest to Farm: Modeling Nitrogen Dynamics for Sustainable Agriculture},
-  author    = {Lu, Junqi and Wu, Yuejiao and Peng, Linjing},
-  booktitle = {The Mathematical Contest in Modeling (MCM/ICM)},
-  year      = {2025},
-  publisher = {COMAP, Inc.},
-  note      = {Team 2515324, Finalist Award}
-}
-```
 ## ⚖️ 许可证
 本项目采用 MIT 许可证发行。更多信息请参见 `LICENSE` 文件。
