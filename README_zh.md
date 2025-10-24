@@ -18,6 +18,10 @@ Click to switch to the English version ☞ **[English](./README.md)**
 > -  我们采用基于改进Lotka-Volterra方程的动态建模方法，模拟了森林与农业生态系统中的氮循环过程，并深入分析了从森林到可持续性农田的生态系统转变。
 > -  本项目中包含了论文的**tex源文档**以及**所有代码**。
 > -  对于我们论文思路，以及正文讲解，请见本人博客文章 **[【数学建模经验分享】| 2025美赛E题F奖论文分享 | 微分方程模型 | 种族竞争狩猎模型 | Lotka-Volterra 方程拓展](https://www.cnblogs.com/JQ-Luke/p/18858431)**。
+> - 推荐阅读顺序：
+>   1. 阅读[模型一的jupyter笔记本](./notebooks/1_model_1.ipynb)，包含我对微分方程模型的理解；
+>   2. 论文中文博客的讲解，最好在读之前先读一遍赛题，明确问题以及我们解决问题的思路；
+>   3. 参赛论文和代码（批判性阅读即可，其实赛后复盘感觉有很多点没做好），希望后来者能够吸取我们的经验教训
 
 ---
 
@@ -51,7 +55,7 @@ MCM-ICM-2025-E-Nitrogen-Cycling-Model/
 ├── requirements.txt         # Python项目依赖列表
 │
 ├── notebooks/               # 存放所有的代码与可视化结果
-│   ├── 1_model_1.ipynb      # 模型一 (FENCM)
+│   ├── 1_model_1.ipynb      # 模型一，包括我个人对微分方程模型的理解 (FENCM)
 │   ├── 2_model_2.ipynb      # 模型二 (AENCM)
 │   ├── 3_model_3.ipynb      # 模型三 (AE-FW-NCM)
 │   └── 4_sensitivity_anlysis.ipynb # 灵敏度分析
@@ -64,13 +68,11 @@ MCM-ICM-2025-E-Nitrogen-Cycling-Model/
 ```
 
 ## 🚀 开始使用
-要获取项目的本地副本并运行，请遵循以下简单步骤。
-
 环境要求
 - Python 3.8 或更高版本
 - Pip 包管理器
 
-安装步骤
+### 开始方法一（使用git克隆到本地）
 1. 克隆仓库并安装依赖。 以下指令将一次性完成项目配置。
 ```Bash
 git clone https://github.com/LUKEQ420/MCM-ICM-2025-E-Nitrogen-Cycling-Model.git
@@ -85,11 +87,11 @@ jupyter lab
 ```
 启动JupyterLab后，请进入 `notebooks/` 目录，并从 `1_model_1.ipynb` 开始运行。
 
-### 开始方法二（更推荐采用的方式）
+### 开始方法二（更推荐采用的简单方式）
 1. 点击项目首页右上方绿色“code”，再点击“download Zip”直接本地下载安装包并解压
 2. 在VS Code中打开解压后的项目文件夹即可本地运行本项目（需要提前在vscode中安装jupyter和latex相关扩展，具体步骤请自行在大模型指导下进行）
 
-*注：由于对本项目感兴趣的可能多为刚接触美赛的本科低年级同学，故更推荐使用这种更简单的方式开始*
+*注：由于对本项目感兴趣的可能多为刚接触美赛的本科低年级同学，故更推荐使用这种不使用git的更简单的方式开始*
 
 ## ⚖️ 许可证
 本项目采用 MIT 许可证发行。更多信息请参见 `LICENSE` 文件。
