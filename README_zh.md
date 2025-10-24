@@ -17,9 +17,9 @@ Click to switch to the English version ☞ **[English](./README.md)**
 > -  本仓库包含了我们为 **[2025年MCM/ICM竞赛E题](https://www.contest.comap.com/undergraduate/contests/mcm/contests/2025/problems/2025_ICM_Problem_E.pdf)** 提交的完整解决方案。
 > -  我们采用基于改进Lotka-Volterra方程的动态建模方法，模拟了森林与农业生态系统中的氮循环过程，并深入分析了从森林到可持续性农田的生态系统转变。
 > -  本项目中包含了论文的**tex源文档**以及**所有代码**。
-> -  对于我们论文思路，以及正文讲解，请见本人博客文章 **[【数学建模经验分享】| 2025美赛E题F奖论文分享 | 微分方程模型 | 种族竞争狩猎模型 | Lotka-Volterra 方程拓展](https://www.cnblogs.com/JQ-Luke/p/18858431)**。
+> -  对于我们论文思路，以及正文讲解，请见 **[本人博客文章](https://www.cnblogs.com/JQ-Luke/p/18858431)**。
 > - 推荐阅读顺序：
->   1. 阅读[模型一的jupyter笔记本](./notebooks/1_model_1.ipynb)，包含我对微分方程模型的理解；
+>   1. 阅读[模型一的jupyter笔记本](./notebooks/1_model_1.ipynb)，包含我对欧拉法与微分方程模型的理解，以及相应的求解代码；
 >   2. [中文博客](https://www.cnblogs.com/JQ-Luke/p/18858431)中的思路讲解，最好在读之前先读一遍赛题，明确问题以及我们解决问题的思路；
 >   3. 参赛论文和代码（批判性阅读，其实赛后复盘感觉我们有很多点没做好），希望后来者能够吸取我们的经验教训做得更好。
 
