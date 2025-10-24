@@ -55,10 +55,10 @@ MCM-ICM-2025-E-Nitrogen-Cycling-Model/
 ├── requirements.txt         # Python项目依赖列表
 │
 ├── notebooks/               # 存放所有的代码与可视化结果
-│   ├── 1_model_1.ipynb      # 模型一，包括我个人对微分方程模型的理解 (FENCM)
-│   ├── 2_model_2.ipynb      # 模型二 (AENCM)
-│   ├── 3_model_3.ipynb      # 模型三 (AE-FW-NCM)
-│   └── 4_sensitivity_anlysis.ipynb # 灵敏度分析
+│   ├── 1_model_1.ipynb      # 模型一求解代码，以及我个人对微分方程模型的理解
+│   ├── 2_model_2.ipynb      # 模型二 (AENCM) 求解代码
+│   ├── 3_model_3.ipynb      # 模型三 (AE-FW-NCM) 求解代码
+│   └── 4_sensitivity_anlysis.ipynb # 灵敏度分析求解代码
 │
 └── paper/                   # 存放完整的学术论文
     ├── main.tex             # LaTeX源文件
