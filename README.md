@@ -15,7 +15,7 @@
 
 <div align="left">
 
-Available in: **[简体中文 (Chinese)](./README_zh.md)**
+Available in: **点击切换为[简体中文 (Chinese)](./README_zh.md)**
 
 </div>
 
