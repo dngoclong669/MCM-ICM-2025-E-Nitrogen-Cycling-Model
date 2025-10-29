@@ -6,6 +6,15 @@
     <img src="https://img.shields.io/badge/Award-Finalist-brightgreen" alt="Award Badge">
     <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License Badge">
 </p>
+
+<div align="left">
+
+Available in: **[简体中文 (Chinese)](./README_zh.md) <- 点击切换中文版** 
+
+
+</div>
+
+
 <p>
   <a href="https://star-history.com/#LUKEQ420/MCM-ICM-2025-E-Nitrogen-Cycling-Model&Date">
     <img src="https://api.star-history.com/svg?repos=LUKEQ420/MCM-ICM-2025-E-Nitrogen-Cycling-Model&type=Date" alt="Star History Chart">
@@ -13,11 +22,7 @@
 </p>
 </div>
 
-<div align="left">
 
-Available in: **点击切换为[简体中文 (Chinese)](./README_zh.md)**
-
-</div>
 
 > 🏆 **Finalist Award (Top 1.8% of 27,456 teams worldwide)**
 > - This repository contains our complete solution for the **[MCM/ICM 2025 Problem E](https://www.contest.comap.com/undergraduate/contests/mcm/contests/2025/problems/2025_ICM_Problem_E.pdf)**.
