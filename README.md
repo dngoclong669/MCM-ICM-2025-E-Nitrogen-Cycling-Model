@@ -1,29 +1,35 @@
-
-
 # From Forest to Farm: Modeling Nitrogen Dynamics for Sustainable Agriculture
 
 <div align="center">
 <p>
-    <img src="https://img.shields.io/badge/MCM/ICM-2025-blue" alt="Contest Badge">
-    <img src="https://img.shields.io/badge/Award-Finalist-brightgreen" alt="Award Badge">
-    <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License Badge">
+    <img src="https://img.shields.io/badge/MCM/ICM-2025-blue" alt="Contest Badge">
+    <img src="https://img.shields.io/badge/Award-Finalist-brightgreen" alt="Award Badge">
+    <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License Badge">
+</p>
+<p>
+  <a href="https://star-history.com/#LUKEQ420/MCM-ICM-2025-E-Nitrogen-Cycling-Model&Date">
+    <img src="https://api.star-history.com/svg?repos=LUKEQ420/MCM-ICM-2025-E-Nitrogen-Cycling-Model&type=Date" alt="Star History Chart">
+  </a>
 </p>
 </div>
+
 <div align="left">
 
-点击切换为中文版☞ **[简体中文](./README_zh.md)**
+Available in: **[简体中文 (Chinese)](./README_zh.md)**
 
 </div>
 
-> 🏆 **Finalist Award (Top 1.8% of 27,456 teams worldwide)**.
+> 🏆 **Finalist Award (Top 1.8% of 27,456 teams worldwide)**
 > - This repository contains our complete solution for the **[MCM/ICM 2025 Problem E](https://www.contest.comap.com/undergraduate/contests/mcm/contests/2025/problems/2025_ICM_Problem_E.pdf)**.
 > - We developed a dynamic model using modified Lotka-Volterra equations to simulate the nitrogen cycle in forest and agricultural ecosystems, analyzing the ecological transition from forest to sustainable farmland.
-> - This project includes the **TeX source document** of the thesis as well as **all the codes**.
+> - This project includes the **TeX source document** of the paper as well as **all the code**.
 ---
 
 ## 📖 Abstract
 
 The conversion of forests to farmland significantly alters ecosystem structure and function. This study investigates these ecological consequences by focusing on **nitrogen cycling** as a key indicator of ecosystem health. We employ a dynamic modeling approach to simulate nitrogen flow through forest and agricultural food webs, providing quantitative insights into the impacts of human agricultural practices.
+
+---
 
 ## 🔬 Core Models Developed
 
@@ -33,6 +39,8 @@ This study is built upon a progressive sequence of three core models:
 * **AENCM (Agricultural Ecosystem Nitrogen Cycle Model):** An extension of FENCM that incorporates human interventions such as planting, harvesting, fertilization, and pesticide use, allowing for the simulation of different farming strategies.
 * **AE-FW-NCM (Agricultural Ecosystem-Food Web-Nitrogen Cycle Model):** The most comprehensive model, which includes a complex food web structure with multiple trophic levels, reflecting a more mature and stabilized agricultural ecosystem over time.
 
+---
+
 ## 📁 Repository Structure
 
 The repository is organized as follows to ensure clarity and reproducibility:
@@ -40,23 +48,23 @@ The repository is organized as follows to ensure clarity and reproducibility:
 ```plaintext
 MCM-ICM-2025-E-Nitrogen-Cycling-Model/
 │
-├── .gitignore               # Git ignore configuration
-├── LICENSE                  # MIT License file
-├── README.md                # This file (English version)
-├── README_zh.md             # Chinese version of the README
-├── requirements.txt         # Python dependency list
+├── .gitignore               # Git ignore configuration
+├── LICENSE                  # MIT License file
+├── README.md                # This file (English version)
+├── README_zh.md             # Chinese version of the README
+├── requirements.txt         # Python dependency list
 │
-├── notebooks/               # All code and visualizations
-│   ├── 1_model_1.ipynb      # Model 1 (FENCM)
-│   ├── 2_model_2.ipynb      # Model 2 (AENCM)
-│   ├── 3_model_3.ipynb      # Model 3 (AE-FW-NCM)
-│   └── 4_sensitivity_anlysis.ipynb # sensitivity anlysis
+├── notebooks/               # All code, models, and visualizations
+│   ├── 1_model_1.ipynb      # Model 1 (FENCM)
+│   ├── 2_model_2.ipynb      # Model 2 (AENCM)
+│   ├── 3_model_3.ipynb      # Model 3 (AE-FW-NCM)
+│   └── 4_sensitivity_analysis.ipynb # Sensitivity analysis
 │
-└── paper/                   # The complete academic paper
-    ├── main.tex             # LaTeX source file
-    ├── references.bib       # references
-    ├── figures/             # figures
-    └── 2515324.pdf          # Final PDF version of our paper
+└── paper/                   # The complete academic paper
+    ├── main.tex             # LaTeX source file
+    ├── references.bib       # Bibliography file
+    ├── figures/             # Image assets
+    └── 2515324.pdf          # Final PDF version of our paper
 ```
 
 ## 🚀 Getting Started
