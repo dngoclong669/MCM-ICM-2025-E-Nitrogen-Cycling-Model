@@ -76,7 +76,7 @@ MCM-ICM-2025-E-Nitrogen-Cycling-Model/
 * **Python:** 建议使用 Python 3.8 或更高版本。
 * **Pip:** Python 的包管理器，通常随 Python 一起安装。
 * **代码编辑器:** 推荐使用 [VS Code](https://code.visualstudio.com/)，并安装 [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) 和 [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) 扩展。
-* **(可选) Git:** 版本控制工具，用于方法一。[点此下载](https://git-scm.com/downloads)。
+* **(可选) Git:** 版本控制工具，用于方法二。[点此下载](https://git-scm.com/downloads)。
 * **(可选) Anaconda:** 对于初学者，[Anaconda](https://www.anaconda.com/download) 是一个更简单的 Python 环境管理工具，它自带了 Python, Pip, Jupyter 等常用库。
 
 ---
