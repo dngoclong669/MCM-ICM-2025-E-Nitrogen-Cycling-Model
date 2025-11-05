@@ -9,7 +9,7 @@
 </div>
 <div align="left">
 
-Click to switch to the English version ☞ **[English](./README.md)** 
+Available in: **[English Version](./README.md)** 
 
 </div>
 
